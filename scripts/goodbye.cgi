@@ -14,11 +14,11 @@ cat <<EOF
 <!-- Start of the Body -->
 <html>
   <head>
-     <title>Hello!</title>
+     <title>Goodbye!</title>
   </head>
   <body>
     <h1>A Simple HTML Document</h1>
-    "Hello!"
+    "Goodbye!"
   </body>
 </html>
 <!-- End of the Body -->
