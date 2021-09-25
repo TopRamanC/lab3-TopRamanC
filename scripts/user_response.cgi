@@ -14,7 +14,6 @@ echo ""
 
 # Emit the HTTP response body
 cat <<EOF
-<!-- Start of the Body -->
 <html>
   <head>
      <title>Response Page</title>
@@ -24,5 +23,4 @@ cat <<EOF
   <h4>You entered:  $USERNAME<h4>
   </body>
 </html>
-<!-- End of the Body -->
 EOF
