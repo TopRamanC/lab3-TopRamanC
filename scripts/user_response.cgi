@@ -1,14 +1,18 @@
 #!/bin/bash
 
+# Variables for username
 USERNAME=${QUERY_STRING#*Username=}
 USERNAME=${USERNAME%%&*}
 USERNAME=${USERNAME//+/ }
 
+# Emit the HTTP response header
 echo "X-function: Emitting a hereis document"
 echo "Content-type: text/html"
 
+# Emit a blank line to separate the HTTP response header from the HTTP response body
 echo ""
 
+# Emit the HTTP response body
 cat <<EOF
 <!-- Start of the Body -->
 <html>
